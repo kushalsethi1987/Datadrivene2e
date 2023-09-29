@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="2.219">
+           time="4.428">
   <properties />
   
   
-            <testcase name="carWaleHomePageLoginVerify" time="2.219" classname="testcases.ValidateHomePageFunctionality" />
+            <testcase name="carWaleHomePageLoginVerify" time="4.428" classname="testcases.ValidateHomePageFunctionality" />
       
 </testsuite>

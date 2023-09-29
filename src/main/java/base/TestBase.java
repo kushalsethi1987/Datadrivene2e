@@ -95,7 +95,7 @@ public class TestBase {
         }
     }
 
-    @BeforeMethod
+    /*@BeforeMethod
 
     public void checkIsTestRunnable(ITestResult iTestResult)
     {
@@ -103,7 +103,7 @@ public class TestBase {
         {
             throw new SkipException("Skipping the test case");
         }
-    }
+    }*/
 
     public void click(String locator)
     {

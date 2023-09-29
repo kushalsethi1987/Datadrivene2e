@@ -41,6 +41,7 @@ public class ValidateHomePageFunctionality extends TestBase {
             /*driver.findElement(By.xpath(OR.getProperty("userName_xpath"))).sendKeys(data.get("username"));*/
         // With Keyword use
             type("userName_xpath",data.get("username"));
+        Thread.sleep(2000);
             ExtentListeners.test.log(Status.INFO,"Entered Username "+data.get("username"));
             System.out.println(data.get("username"));
     }
