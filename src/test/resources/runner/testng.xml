@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DataDrivenE2E">
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+        <listener class-name="listeners.CustomListeners"/>
+        <listener class-name="extentlisteners.ExtentListeners"/>
+    </listeners>
+    <test thread-count="5" name="ValidateHomePageFunctionality">
+         <classes>
+            <class name="testcases.ValidateHomePageFunctionality"/>
+        </classes>
+    </test>
+    <test thread-count="5" name="ValidateNewCarPageFunctionality">
+        <classes>
+            <class name="testcases.ValidateNewCarPageFunctionality"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->

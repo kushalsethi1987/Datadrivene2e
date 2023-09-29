@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[OR property file loaded]]>
+    </line>
+    <line>
+      <![CDATA[Capturing Screenshot]]>
+    </line>
+    <line>
+      <![CDATA[<a target ="_blank" href=Mon_Sep_25_22_57_28_IST_2023.jpg>Screenshot Link</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a target ="_blank" href=Mon_Sep_25_22_57_28_IST_2023.jpg><img src=Mon_Sep_25_22_57_28_IST_2023.jpg height=200 width=200</img>></a>]]>
+    </line>
+    <line>
+      <![CDATA[Chrome Closed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-09-25T17:27:25Z" name="DataDrivenE2E" finished-at="2023-09-25T17:27:28Z" duration-ms="2835">
+    <groups>
+    </groups>
+    <test started-at="2023-09-25T17:27:25Z" name="ValidateHomePageFunctionality" finished-at="2023-09-25T17:27:28Z" duration-ms="2663">
+      <class name="testcases.ValidateHomePageFunctionality">
+        <test-method signature="carWaleHomePageLoginVerify(java.util.Hashtable)[pri:0, instance:testcases.ValidateHomePageFunctionality@7004e3d]" started-at="2023-09-25T17:27:25Z" name="carWaleHomePageLoginVerify" data-provider="getData" finished-at="2023-09-25T17:27:28Z" duration-ms="2219" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Password=Jonathan@12, username=kushal.sethi.nkaps@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Capturing Screenshot]]>
+            </line>
+            <line>
+              <![CDATA[<a target ="_blank" href=Mon_Sep_25_22_57_28_IST_2023.jpg>Screenshot Link</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a target ="_blank" href=Mon_Sep_25_22_57_28_IST_2023.jpg><img src=Mon_Sep_25_22_57_28_IST_2023.jpg height=200 width=200</img>></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- carWaleHomePageLoginVerify -->
+      </class> <!-- testcases.ValidateHomePageFunctionality -->
+    </test> <!-- ValidateHomePageFunctionality -->
+    <test started-at="2023-09-25T17:27:28Z" name="ValidateNewCarPageFunctionality" finished-at="2023-09-25T17:27:28Z" duration-ms="0">
+      <class name="testcases.ValidateNewCarPageFunctionality">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.ValidateNewCarPageFunctionality@afb5821]" started-at="2023-09-25T17:27:22Z" name="setUp" finished-at="2023-09-25T17:27:25Z" duration-ms="3253" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[OR property file loaded]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.ValidateNewCarPageFunctionality@afb5821]" started-at="2023-09-25T17:27:28Z" name="tearDown" finished-at="2023-09-25T17:27:28Z" duration-ms="218" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Chrome Closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.ValidateNewCarPageFunctionality -->
+    </test> <!-- ValidateNewCarPageFunctionality -->
+  </suite> <!-- DataDrivenE2E -->
+</testng-results>

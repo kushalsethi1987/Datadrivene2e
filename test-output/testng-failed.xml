@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [DataDrivenE2E]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="listeners.CustomListeners"/>
+    <listener class-name="extentlisteners.ExtentListeners"/>
+  </listeners>
+  <test thread-count="5" name="ValidateHomePageFunctionality(failed)">
+    <classes>
+      <class name="testcases.ValidateHomePageFunctionality">
+        <methods>
+          <include name="carWaleHomePageLoginVerify" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcases.ValidateHomePageFunctionality -->
+    </classes>
+  </test> <!-- ValidateHomePageFunctionality(failed) -->
+</suite> <!-- Failed suite [DataDrivenE2E] -->
