@@ -39,6 +39,7 @@ public class TestBase {
     public static ExcelReader excelReader=new ExcelReader
             (System.getProperty("user.dir")+"\\src\\test\\resources\\testdata\\testData.xlsx");
     public static WebDriverWait wait;
+    public static String browser;
 
     @BeforeSuite
     public void setUp() throws IOException {
@@ -60,6 +61,19 @@ public class TestBase {
             log.info("OR property file loaded");
             Reporter.log("OR property file loaded");
         }
+
+        // IMPORTANT : Filter used in jenkins would work on the below logic
+        /*if(System.getenv("browser").isEmpty() && System.getenv("browser").isBlank())
+        {
+            browser=System.getenv("browser");
+        }
+        else
+        {
+            browser= config.getProperty("browser");
+        }
+        config.setProperty("browser", browser);*/
+
+        // IMPORTANT : Based on config property browser this would work
         if(config.getProperty("browser").equalsIgnoreCase("chrome"))
         {
             WebDriverManager.chromedriver().setup();
